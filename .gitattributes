@@ -1,0 +1,6 @@
+# 让 GitHub linguist 正确识别本项目语言
+*.ino linguist-language=C++
+*.h linguist-language=C++
+
+# 生成的动画位图数据不计入语言统计
+yuexinmao_data.h linguist-vendored
